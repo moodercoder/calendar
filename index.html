@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: "Ciutadella-Regular";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c54029ae8d365000d0cbd54/Ciutadella Regular Typeface.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "Ciutadella-Medium";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c6202c58569f3000b8bb2e5/Emtype Foundry - Ciutadella-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "Ciutadella-SemiBold";
+        src: url("https://anima-uploads.s3.amazonaws.com/5c4a9918ba3d79000962266f/Emtype Foundry - Ciutadella-SemiBold 2.otf")
+          format("opentype");
+      }
+    </style>
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0px;
+        height: 100%;
+      }
+      /* a blue color as a generic focus style */
+      button:focus-visible {
+        outline: 2px solid #4a90e2 !important;
+        outline: -webkit-focus-ring-color auto 5px !important;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link href="styleguide.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./src/index.jsx"></script>
+  </body>
+</html>

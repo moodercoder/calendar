@@ -1,0 +1,342 @@
+/* .frame {
+  background-color: #889ab626;
+  height: 1261px;
+  overflow: hidden;
+  position: relative;
+  width: 1728px;
+} */
+
+/* .frame .overlap-group {
+  height: 922px;
+  left: 87px;
+  position: absolute;
+  top: 178px;
+  width: 1582px;
+} */
+
+.frame .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #889ab633;
+  border-radius: 7px 0px 0px 7px;
+  height: 922px;
+  left: 60px;
+  position: absolute;
+  top: 0;
+  width: 1522px;
+}
+
+.frame .div {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  height: 868px;
+  justify-content: space-between;
+  left: 0;
+  /* padding: 0px 10px; */
+  position: absolute;
+  /* top: 33px; */
+}
+
+.frame .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  color: #22356db2;
+  font-family: "Ciutadella-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+  left: 61px;
+  padding: 6px 0px 4px 13px;
+  position: absolute;
+  top: 0;
+  width: 1520px;
+}
+
+.frame .div-wrapper-2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px 10px;
+  position: relative;
+  width: 116px;
+}
+
+.frame .text-wrapper-2 {
+  color: #22356db2;
+  font-family: "Ciutadella-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  left: 70px;
+  position: absolute;
+  top: 44px;
+  width: 1501px;
+}
+
+.frame .line {
+  align-self: stretch;
+  height: 1px;
+  margin-top: -1px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.frame .img {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 125px;
+  height: 893px;
+  left: 195px;
+  position: absolute;
+  top: 7px;
+}
+
+.frame .line-2 {
+  height: 901px;
+  margin-bottom: -8px;
+  margin-left: -1px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.frame .line-3 {
+  height: 901px;
+  margin-bottom: -8px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.frame .line-4 {
+  height: 8px;
+  left: 57px;
+  position: absolute;
+  top: 185px;
+  width: 1524px;
+}
+
+.frame .div-5 {
+  align-items: flex-start;
+  background-color: #eaecfc99;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(255, 0, 0),
+      rgb(255, 0, 0) 46.88%,
+      rgb(234, 249, 86) 46.88%,
+      rgb(234, 249, 86) 100%
+    )
+    1;
+  border-left-style: solid;
+  border-left-width: 2.5px;
+  border-radius: 2px 7px 7px 2px;
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  justify-content: space-between;
+  left: 74px;
+  padding: 2px 7px 5px;
+  position: absolute;
+  top: 49px;
+  width: 116px;
+}
+
+.frame .div-wrapper-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.frame .text-wrapper-3 {
+  color: var(--main-colorsbluemainnormal);
+  font-family: "Ciutadella-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-6 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-4 {
+  color: #7e93ff;
+  font-family: "Ciutadella-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-wrapper-4 {
+  align-items: flex-start;
+  border-radius: 7px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 14px;
+  padding: 2px 0px;
+  position: relative;
+}
+
+.frame .text-wrapper-5 {
+  color: #7e93ff;
+  font-family: "Ciutadella-Medium", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  height: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 20px;
+}
+
+.frame .div-7 {
+  align-items: flex-start;
+  background-color: #eaecfc99;
+  border-color: #ff0000bf;
+  border-left-style: solid;
+  border-left-width: 2.5px;
+  border-radius: 2px 7px 7px 2px;
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  justify-content: space-between;
+  left: 324px;
+  padding: 2px 7px 5px;
+  position: absolute;
+  top: 102px;
+  width: 116px;
+}
+
+.frame .div-wrapper-5 {
+  align-items: flex-start;
+  background-color: #7e93ff;
+  border-radius: 7px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 14px;
+  padding: 2px 7px;
+  position: relative;
+}
+
+.frame .text-wrapper-6 {
+  color: var(--main-colorswhite);
+  font-family: "Ciutadella-Medium", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  height: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 17px;
+}
+
+.frame .img-2 {
+  height: 40px;
+  left: 1564px;
+  position: absolute;
+  top: 2px;
+  width: 7px;
+}
+
+.frame .text-wrapper-7 {
+  color: #ff1313;
+  font-family: "Ciutadella-Medium", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  height: 12px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: absolute;
+  text-align: right;
+  top: 182px;
+  white-space: nowrap;
+  width: 34px;
+}
+
+/* .frame .rectangle-2 {
+  background-color: #889ab626;
+  box-shadow: 10px 4px 20px #0000000f;
+  height: 1261px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.frame .rectangle-3 {
+  height: 158px;
+  left: 1112px;
+  position: absolute;
+  top: 1668px;
+  width: 510px;
+} */
